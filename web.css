@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav-bar{
+    padding: 0px 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    font-family: sans-serif;
+}
+#nav-left{
+    align-items: center;
+    display: flex;
+    width: 50%;
+    gap: 60px;
+}
+#nav-texts{
+    color: grey;
+    font-size: 15px;
+    gap: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#nav-texts:hover{
+    cursor: pointer;
+}
+#nav-texts span:hover{
+    cursor: pointer;
+    color: black;
+}
+#nav-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#nav-right button{
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    font-weight: 300px;
+    background-color: #fff;
+
+}
+#nav-right button:hover{
+    cursor: pointer;
+    background-color: rgb(241, 239, 239);
+}
+#nav-right #inn{
+    font-size: 15px;
+    border: 0.5px solid rgb(205, 203, 203);
+    padding: 7px 20px;
+    color: rgb(69, 69, 69);
+}
+#nav-right #inn:hover{
+    cursor: pointer;
+    background-color: rgb(241, 239, 239);
+}
+#nav-right input{
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    padding: 0px 10px;
+    font-size: 15px;
+    font-weight: 300px;
+}
+#nav-right div{
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: rgb(238, 233, 233);
+}
+#sun{
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+#sun:hover{
+    padding: 10px;
+    background-color: rgb(232, 230, 230);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
