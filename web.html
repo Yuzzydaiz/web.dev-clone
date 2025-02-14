@@ -22,7 +22,7 @@
         <div id="nav-right">
             <div>
             <i style="color: rgb(94, 94, 94);" class="fa-solid fa-magnifying-glass"></i>
-            <input style="background-color: rgb(238, 233, 233); width: 120px;" placeholder="Search" type="text">
+            <input style="background-color: rgb(238, 233, 233); border: none; width: 120px;" placeholder="Search" type="text" >
             <span style="background-color: white; border: none; border-radius: 10px; padding:2px 10px;">/</span>
             </div>
             <i id="sun" style="color: grey;" class="fa-regular fa-sun"></i>
@@ -35,9 +35,268 @@
         </div>
     </div>
      
-    <div style="color: white; background-color: rgb(26,115,232); height: 75px; width: 100%; margin-top: 55px; display: flex; align-items: center; font-family: sans-serif; padding: 0px 20px;">
+    <div style="color: white; background-color: rgb(26,115,232); height: 75px; width: 100%; margin-top: 55px; display: flex; align-items: center; padding: 0px 20px;">
         <span>Guidance to build modern web experiences that work on any browser.</span>
+    </div> 
+
+    <div style="display: flex; flex-direction: row; margin: 65px 120px 80px 60px; justify-content: space-between; align-items: center;">
+        <div style="width: 48%;">
+            <h1 style="font-size: 3.8em; font-weight: bolder;">Building a better web, together</h1>
+            <div style="font-size: 20px; color:#202124; margin-top: 35px; line-height: 25px;">We want to help you build beautiful, accessible, fast, and secure websites that work cross-browser, and for all of your users. This site is our home for content to help you on that journey, written by members of the Chrome team, and external experts who specialize in web development topics such as accessibility, performance, design, and more.</div>
+        </div>
+        <img src="./images/home-blue.png" style="width: 43%; height: 48vh; margin-top: 50px; border-radius: 30px;" alt="">
     </div>
+
+    <section style="display: flex; flex-direction:row;" class="sec">
+        <div id="left">
+            <h3 style="font-size: 1.7em; margin: 5px 0px 20px 0px;">Baseline</h3>
+            <span style="display: block; font-size: 16px;">Web Platform Baseline brings clarity to information about browser support for web platform features, providing clear information about which web platform features are ready to use in your projects today. When reading an article here on web.dev, if the features used are all part of Baseline, you can trust the level of browser compatibility.</span>
+            <button>Learn more</button>
+        </div> 
+        <div>
+            <img src="./images/baseline-wordmark.png"  alt="">
+        </div>
+    </section>
+
+    <section class="container"> 
+        <div class="inner-div">
+            <img src="./images/ai-feature.png" alt="">
+            <h2 style="margin: 40px 0px; font-size: 2em;">AI and the web</h2>
+            <div style="margin-bottom: 40px;">Discover resources created to help you understand and build performant, web-first experiences with AI.</div>
+            <button>Learn more</button>
+        </div>
+        <div class="inner-div">
+            <img src="./images/inp-cwv.v2.png" alt="">
+            <h2 style="margin: 40px 0px; font-size: 2em;">Optimized INP</h2>
+            <div style="margin-bottom: 40px;">Interaction to Next Paint (INP) is now a Core Web Vital metrics. Start measuring and optimizing your site's INP.</div>
+            <button>Learn more</button>
+        </div>
+        <div class="inner-div">
+            <img src="./images/hero-identity.png" alt="">
+            <h2 style="margin: 40px 0px; font-size: 2em;">Payment & Identity</h2>
+            <div style="margin-bottom: 40px;">Read up on the latest features and best practices when it comes to identity and payment processing.</div>
+            <button>Learn more</button>
+        </div>
+    </section>
+
+    <section style="background-color:#f5f5f5; color:#202124; padding: 30px 60px 0px 60px; margin-top: 40px;">
+        <h3 style="font-size: 20px; margin-bottom: 20px;">Explore the web platform</h3>
+        <div style="font-size: 16px; ">The web platform is a constantly evolving ecosystem of browser features and APIs that developers can use to make websites that are easy and delightful to use. These pages are pathways for you to dive into each part of the web platform on web.dev—at your pace:</div>
+    </section>
+    <section style="background-color: #f5f5f5; padding-bottom: 40px;" class="container">
+        <div  style="background-color: white;" class="inner-div">
+            <i id="inner-icon" style="margin: 0px 37%; font-size: 25px; color: rgb(26, 115, 232); background-color: hsl(0, 0%, 95%); border-radius: 50%; padding: 10px;" class="fa-solid fa-image"></i>
+            <div class="lang-names" style="margin: 40px 34%; font-size: 1.2em; color: rgb(26, 115, 232);">HTML</div>
+            <div style="margin-bottom: 40px;">HTML is the document layer of the web, providing structure and semantics for pages.</div>
+            <button style="margin-left: 50px;">Learn more</button>
+        </div>
+        <div style="background-color: white;" class="inner-div">
+            <i id="inner-icon" style="margin: 0px 38%; font-size: 25px; color: rgb(26, 115, 232); background-color:hsl(0, 0%, 95%); border-radius: 50%; padding: 10px;" class="fa-regular fa-window-maximize"></i>
+            <div class="lang-names" style="margin: 40px 38%; font-size: 1.2em; color: rgb(26, 115, 232);">CSS</div>
+            <div style="margin-bottom: 40px;">CSS is the presentation layer of the web, and allows you to your web pages look just like you want them to.</div>
+            <button style="margin-left: 50px;">Learn more</button>
+        </div>
+
+        <div  style="background-color: white;" class="inner-div">
+            <i id="inner-icon" style="margin: 0px 39%; font-size: 25px; color: rgb(26, 115, 232); background-color:hsl(0, 0%, 95%); border-radius: 50%; padding: 10px;" class="fa-solid fa-stopwatch-20"></i>
+            <div class="lang-names" style="margin: 40px 32%; font-size: 1.2em; color: rgb(26, 115, 232);">JavaScript</div>
+            <div  style="margin-bottom: 40px;">JavaScript provides rich interactivity to web pages, allowing developers to build richly interactive websites that help users to perform tasks and accomplish goals.</div>
+            <button style="margin-left: 50px;">Learn more</button>
+        </div>
+    </section>
+
+    <section style="background-color:white; color:#202124; padding: 30px 60px 0px 60px; margin-top: 40px;">
+        <h3 style="font-size: 20px; margin-bottom: 20px;">Learn the web platform</h3>
+        <div style="font-size: 16px; ">New to the web platform? We've got you covered! Dive into each part of the web platform with these courses curated specifically for beginners to HTML, CSS, and JavaScript.</div>
+    </section>
+        <section class="container"> 
+            <div class="inner-div">
+                <img src="./images/card.png" alt="">
+                <h2 style="margin: 40px 0px; font-size: 2em;">Learn HTML</h2>
+                <div style="margin-bottom: 40px;">A solid overview of HTML for developers, from novice to expert level HTML.</div>
+                <button>Start Course</button>
+            </div>
+            <div class="inner-div">
+                <img src="./images/card.png" alt="">
+                <h2 style="margin: 40px 0px; font-size: 2em;">Learn CSS</h2>
+                <div style="margin-bottom: 40px;">A guide to CSS with modules covering everything from accessibility to z-index.</div>
+                <button>Start Course</button>
+            </div>
+            <div class="inner-div">
+                <img src="./images/card.png" alt="">
+                <h2 style="margin: 40px 0px; font-size: 2em;">Learn JavaScript</h2>
+                <div style="margin-bottom: 40px;">An in-depth course on the basics of JavaScript.</div>
+                <button>Start Course</button>
+            </div>
+        </section>
+
+        <section style="display: flex; flex-direction:row; margin: 40px 0px; border-bottom: 1px solid grey;" class="sec">
+            <div id="left">
+                <h3 style="font-size: 1.7em; margin: 5px 0px 20px 0px;">Keep up on web development news</h3>
+                <span style="display: block; font-size: 16px;">Our blog contains the latest news in web development, including new web platform features, updates to Baseline, AI, Core Web Vitals, and more. Keep up with the latest blog reading our blog.</span>
+                <button>Read the blog</button>
+            </div> 
+            <div>
+                <img src="./images/blog-header.png"  alt="">
+            </div>
+        </section>  
+
+        <section class="big-texts-box">
+            <div class="text-div">
+                <h2>CSS and UI design</h2><br>
+                <div>Learn the latest tips and techniques to use in your work, right now.</div><br> 
+                <button>Explore CSS</button>
+            </div>
+            <div class="text-div">
+                <div>
+                    <div class="in-text-div">Adapting typography to <br>user preference using CSS</div><br>
+                    <div class="in-inner-texts">Adapt a font to your users' preferences, so they're maximally comfortable reading your content.</div>
+                </div><br><br>
+                <div>
+                    <div class="in-text-div">What are source maps?</div><br>
+                    <div class="in-inner-texts">Improve web debugging experience with source maps.</div>
+                </div><br><br>
+            </div>
+            <div class="text-div">
+                <div>
+                    <div class="in-text-div">New CSS color spaces and <br>functions in all major engines</div><br>
+                    <div class="in-inner-texts">All major engines now support the new CSS color spaces and functions. Find out how they can bring vibrancy to your designs.</div>
+                </div><br>
+                <div>
+                    <div class="in-text-div">CSS subgrid</div><br>
+                    <div class="in-inner-texts">Subgrid is now interoperable across all three major engines. Find out how to use it.</div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="big-texts-box" style="background-color: #f5f5f5;">
+            <div class="text-div">
+                <h2>Core Web Vitals</h2><br>
+                <div>Build faster websites and apps by understanding Core Web Vitals and other metrics.</div><br> 
+                <button>Explore Core Web Vitals</button>
+            </div>
+            <div class="text-div">
+                <div>
+                    <div class="in-text-div">The most effective ways to <br>improve Core Web Vitals</div><br>
+                    <div class="in-inner-texts">A collection of best practices for optimizing websites' Core Web Vitals performance based on the state of the web.</div>
+                </div><br><br>
+                <div>
+                    <div class="in-text-div">Common misconceptions <br>about how to optimize LCP</div><br>
+                    <div class="in-inner-texts">Explore common misconceptions about optimizing Largest Contentful Paint by looking beyond image optimization and considering factors like Time to First Byte and resource load delay.</div>
+                </div><br><br>
+            </div>
+            <div class="text-div">
+                <div>
+                    <div class="in-text-div">How to optimize INP</div><br>
+                    <div class="in-inner-texts">Learn how to optimize for the Interaction to Next Paint metric.</div>
+                </div><br><br><br><br>
+                <div>
+                    <div class="in-text-div">Best practices for measuring <br>Web Vitals in the field</div><br>
+                    <div class="in-inner-texts">Learn how to optimize for the Interaction to Next Paint metric.</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="big-texts-box">
+            <div class="text-div">
+                <h2>Progressive Web Apps</h2><br>
+                <div>Create capable web experiences.</div><br> 
+                <button>More on PWA</button>
+            </div>
+            <div class="text-div">
+                <div>
+                    <div class="in-text-div">Learn PWA</div><br>
+                    <div class="in-inner-texts">A course that breaks down every aspect of modern progressive web app development.</div>
+                </div><br><br><br><br>
+                <div>
+                    <div class="in-text-div">New patterns for amazing apps</div><br>
+                    <div class="in-inner-texts">Dive into a fantastic collection of new patterns for amazing apps, including clipboard patterns, file patterns, and advanced app patterns.</div>
+                </div><br><br>
+            </div>
+            <div class="text-div">
+                <div>
+                    <div class="in-text-div">TransformStream is now supported cross browser.</div><br>
+                    <div class="in-inner-texts">Now that transform streams are supported in Safari, Firefox, and Chrome they are finally ready for prime time.</div>
+                </div><br><br>
+                <div>
+                    <div class="in-text-div">Project Fugu API showcase</div><br>
+                    <div class="in-inner-texts">On the Chrome Developers site, explore capabilities APIs.</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="big-texts-box" style="background-color: #f5f5f5;">
+            <div class="text-div">
+                <h2>Accessible for all</h2><br>
+                <div>Learn how to make your sites more accessible for people with disabilities, whether permanent, temporary, or situational..</div><br> 
+                <button>More on accessibility</button>
+            </div>
+            <div class="text-div">
+                <div>
+                    <div class="in-text-div">Learn Accessibility</div><br>
+                    <div class="in-inner-texts">Our new course is a great entry point and reference for accessibility topics.</div>
+                </div><br><br>
+                <div>
+                    <div class="in-text-div">Building the main navigation for a website</div><br>
+                    <div class="in-inner-texts">This tutorial describes how to build an accessible main navigation of a website. You learn about semantic HTML, accessibility, and how using ARIA attributes can sometimes do more harm than good.</div>
+                </div><br><br>
+            </div>
+            <div class="text-div">
+                <div>
+                    <div class="in-text-div">Testing web design color contrast</div><br>
+                    <div class="in-inner-texts">An overview of three tools and techniques for testing and verifying accessible color contrast of your design.</div>
+                </div><br><br>
+                <div>
+                    <div class="in-text-div">Community highlight: Melanie Sumner</div><br>
+                    <div class="in-inner-texts">Read our interview with Melanie, a software engineer who specializes in digital accessibility.</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="big-texts-box">
+            <div class="text-div">
+                <h2>Payments and identity</h2><br>
+                <div>Find the latest techniques and best practices for payments and helping users safely log into your sites and apps.</div><br> 
+                <button>More on identity</button>
+            </div>
+            <div class="text-div">
+                <div>
+                    <div class="in-text-div">Create a passkey for passwordless logins</div><br>
+                    <div class="in-inner-texts">Passkeys make user accounts safer, simpler, easier to use.</div>
+                </div><br><br>
+                <div>
+                    <div class="in-text-div">Web payments overview</div><br>
+                    <div class="in-inner-texts">Learn more about Web Payments and how they work.</div>
+                </div><br><br>
+            </div>
+            <div class="text-div">
+                <div>
+                    <div class="in-text-div">Sign in with a passkey</div><br>
+                    <div class="in-inner-texts">Create a sign in experience that uses passkeys while still accommodating existing password users.</div>
+                </div><br><br>
+                <div>
+                    <div class="in-text-div">Payment and address form best practices</div><br>
+                    <div class="in-inner-texts">Maximize conversions by helping your users complete address and payment forms as quickly and easily as possible.</div>
+                </div>
+            </div>
+        </section>
+
+        <section style="background-color: #f5f5f5;  justify-content: center; width: 100%; ">
+                <h2>Developer Newsletter</h2>
+                <div>Get the latest news, techniques and updates straight to your inbox.</div>
+            <form style="display: block;" action="">
+                <label for="">First Name</label>
+                <input type="text" placeholder="First Name">
+                <label for="">Last Name</label>
+                <input type="text" placeholder="Last Name">
+                <label for="">Your Email</label>
+                <input type="email" placeholder="Your Email">
+                <label for="">Country</label>
+                <button type=""></button>
+            </form>
+                <div>Don't worry, no spam here! Your information will only be used for web.dev and Chrome related updates and our emails are typically no more than 1-2 times a month. You can unsubscribe anytime.</div>
+        </section>
 <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>    
 </body>
 </html>
